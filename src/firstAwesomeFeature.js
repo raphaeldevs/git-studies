@@ -1,6 +1,6 @@
 const firstAwesomeFeature = "> This is your first awesome feature! 😎 <";
 
-function runfirstAwesomeFeature() {
+function runFirstAwesomeFeature() {
   return new Promise((resolve) => {
     console.log("> Running your first awesome feature...");
 
@@ -11,7 +11,7 @@ function runfirstAwesomeFeature() {
   });
 }
 
-function closefirstAwesomeFeature() {
+function closeFirstAwesomeFeature() {
   return new Promise((resolve) => {
     console.log("> Closing your first awesome feature...");
 
@@ -22,8 +22,8 @@ function closefirstAwesomeFeature() {
 }
 
 async function start() {
-  await runfirstAwesomeFeature();
-  await closefirstAwesomeFeature();
+  await runFirstAwesomeFeature();
+  await closeFirstAwesomeFeature();
 
   console.log("> This ended. Bye bye! 👋");
 }
