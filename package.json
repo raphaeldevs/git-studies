@@ -1,0 +1,8 @@
+{
+  "name": "git-studies",
+  "main": "src/index.js",
+  "type": "module",
+  "repository": "git@github.com:raphaeldevs/git-studies.git",
+  "author": "Raphael Corrêa <raphaeldeoliveiracorrea@gmail.com>",
+  "license": "MIT"
+}
