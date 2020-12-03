@@ -5,7 +5,8 @@ function runfirstAwesomeFeature() {
     console.log("> Running your first awesome feature...");
 
     setTimeout(() => {
-      resolve(firstAwesomeFeature);
+      console.log(firstAwesomeFeature);
+      return resolve();
     }, 5000);
   });
 }
