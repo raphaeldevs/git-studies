@@ -5,7 +5,7 @@ function secondAwesomeFeature() {
 function runSecondAwesomeFeature() {
   return new Promise((resolve) => {
     const delay = (Math.random() * 6000) << 0;
-    console.log("> Starting secondAwesomeFeature...");
+    console.log("\n> Starting secondAwesomeFeature...");
 
     setTimeout(() => {
       console.log(secondAwesomeFeature());
@@ -25,4 +25,4 @@ async function start() {
   console.log("\nBye bye! 👋");
 }
 
-start();
+export default start;

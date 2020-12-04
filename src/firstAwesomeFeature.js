@@ -28,4 +28,4 @@ async function start() {
   console.log("> This ended. Bye bye! 👋");
 }
 
-start();
+export default start;
